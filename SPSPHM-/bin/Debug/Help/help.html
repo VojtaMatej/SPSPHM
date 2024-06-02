@@ -1,0 +1,252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"><head>
+  <title>KompoZer Portable Help</title>
+
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="PortableApps.com" href="http://portableapps.com/feeds/general">
+
+  
+  <link rel="SHORTCUT ICON" href="Other/Help/images/favicon.ico">
+
+  
+  <style>body {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 76%;
+	color: #000;
+	margin: 20px;
+	background: #E6E8EA;
+	text-align: center;
+}
+a
+{
+	color: #B31616;
+	font-weight: bold;
+}
+a:link {
+	}
+a:visited {
+	}
+a:active {
+	}
+a:hover {
+	color: red;
+	}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+}
+h1 {
+	color: #B31616;
+	font-weight: bold;
+	letter-spacing: -2px;
+	font-size: 2.2em;
+	border-bottom: 1px solid silver;
+	padding-bottom: 5px;
+	}
+h2 {
+	font-size: 1.5em;
+	border-bottom: 1px solid silver;
+	padding-bottom: 3px;
+	clear: both;
+	}
+h3 {
+	font-size: 1.2em;
+	}
+h4 {
+	font-size: 1.1em;
+	}
+h5 {
+	font-size: 1.0em;
+	}
+h6 {
+	font-size: 0.8em;
+	}
+img {
+	border: 0;
+	}
+ol, ul, li {
+	font-size: 1.0em;
+	}
+p, table, tr, td, th {
+	font-size: 1.0em;
+	}
+pre {
+	font-family: Courier New,Courier,monospace;
+	font-size: 1.0em;
+	}
+strong, b {
+	font-weight: bold;
+	}
+table, tr, td {
+	font-size: 1.0em;
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid #aaaaaa;
+	border-collapse: collapse;
+	padding: 3px;
+}
+th {
+	background: #3667A8;
+	color: white;
+}
+ol ol {
+	list-style-type: lower-alpha;
+}
+.content {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 780px;
+	background-color: #FFFFFF;
+	border-left: 1px solid Black;
+	border-right: 1px solid Black;
+	padding: 12px 30px;
+	line-height: 150%;
+}
+.logo {
+	background: #ffffff url("Other/Help/images/help_background_header.png") repeat-x;
+	width: 840px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+.footer {
+	background: #ffffff url("Other/Help/images/help_background_footer.png") repeat-x;
+	width: 840px;
+	height: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+.logo img {
+	padding-left: 0px;
+	border: none;
+	position: relative;
+	top: -4px;
+}
+* html .content {
+	width: 760px;
+}
+* html .logo, * html .footer {
+	width: 820px;
+}
+.content h1 {
+	margin: 0px;
+}
+h1.hastagline {
+	border: 0;
+}
+h2.tagline {
+	color: #747673;
+	clear: none;
+	margin-top: 0em;
+}
+/*printer styles*/ 
+@media print{ 
+body, .content {margin: 0; padding: 0;}
+.navigation, .locator, .footer a, .message, .footer-links {display:none;} 
+.footer, .content, .header {border: none;}
+a {text-decoration: none; font-weight: normal; color: black;}
+}</style>
+</head><body>
+<div class="logo"><a href="http://portableapps.com/"><br>
+</a></div>
+
+<div class="content">
+<h1 class="hastagline">SPSPHM Help</h1>
+<h2 class="tagline"><br>
+</h2>
+<p>SPSPHM je aplikace která Vám umo&#382;ní najít nejvhodn&#283;j&#353;í benzínovou
+pumpu podle Va&#353;ich po&#382;adavk&#367;. Najdete zde nejv&#283;t&#353;í cenovou databázi
+benzínových pump v &#268;eské republice s n&#283;kolika tisíci novými cenami
+denn&#283;.<br>
+</p>
+<br>
+Tento software je distribuován pod licensí <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache license 2.0.</a>
+<h2>Nápov&#283;da pro programátory<br>
+</h2>
+<ul>
+  <li><a href="#section_install">Instalace
+SPSPHM</a></li>
+  <li><a href="#section_table">Seznam
+tabulek a jejich význam</a></li>
+  <li><a href="#section_security">Bezpe&#269;nost
+aplikace<br>
+    </a></li>
+  <li><a href="#section_history">Historie
+verzí<br>
+    </a></li>
+</ul>
+<h2><br>
+</h2>
+<br>
+<h2 id="section_install">Instalace SPHM<br>
+</h2>
+Aplikace neobsahuje instalátor. Instalace probíhá zkopírováním slo&#382;ky
+do zvolené slo&#382;ky u&#382;ivatele.<br>
+<br>
+<h2 id="section_table">Seznam tabulek a jejich význam<br>
+</h2>
+<ul>
+  <li>acl_object - seznam objekt&#367; kterým se p&#345;id&#283;lují práva</li>
+  <li>acl_operation - seznam operací <br>
+  </li>
+  <li>acl_permissions - seznam p&#345;id&#283;lených operací(acl_operation)
+konkrétním objekt&#367;m(acl_object)</li>
+  <li>acl_role - seznam rolí</li>
+  <li>acl_role_permission - seznam rolí(acl_role) a jejich
+práv(acl_permissions)</li>
+  <li>acl_user_role - seznam rolí(acl_role) p&#345;id&#283;lených u&#382;ivateli(users)</li>
+  <li>appsetting - data pro nastavení aplikace</li>
+  <li>campaings - seznam akcí(slev)<br>
+  </li>
+  <li>campaings_sites - seznam akcí dostupné na obchodním míst&#283;(OM)</li>
+  <li>campaingtype - seznam typ&#367; akcí</li>
+  <li>chain - seznam vlastník&#367; OM</li>
+  <li>country - seznam stát&#367; s cenami PHM</li>
+  <li>culture - seznam kód&#367; kult&#367;r<br>
+  </li>
+  <li>currency - seznam m&#283;n</li>
+  <li>history - seznam zm&#283;n dat v aplikaci</li>
+  <li>language - seznam jazyk&#367;</li>
+  <li>localiseddescriptions - seznam &#269;íselník&#367; v r&#367;zných jazycích</li>
+  <li>logos - seznam log(obrázk&#367;)</li>
+  <li>product - seznam produkt&#367;</li>
+  <li>services - seznam slu&#382;eb</li>
+  <li>site - seznam obchodních míst</li>
+  <li>site_prices - seznam cen PHM(odkazy na product, currency)</li>
+  <li>sitecategory - seznam druh&#367; obchodních míst</li>
+  <li>userappsetting - data nastavení aplikace pro konkrétního u&#382;ivatele</li>
+  <li>users - seznam u&#382;ivatel&#367;<br>
+  </li>
+</ul>
+<br>
+<h2 id="section_security">Bezpe&#269;nost aplikace<br>
+</h2>
+Aplikace je do budoucna p&#345;ipravena na p&#345;id&#283;lování práv pomocí rolí tzv.
+ACL - <a href="https://cs.wikipedia.org/wiki/Access_Control_List">Access
+Control List.</a><br>
+U bezpe&#269;nostního modelu pou&#382;ívajícího ACL systém p&#345;ed provedením ka&#382;dé
+operace prohledá ACL a nalezne v n&#283;m odpovídající záznam, podle kterého
+rozhodne, zda operace smí být provedena.<br>
+<br>
+<br>
+<h2 id="section_history">Historie verzí<br>
+</h2>
+1.0 - <br>
+<br>
+<h2>Pod&#283;kováni</h2>
+<p>D&#283;kujeme spole&#269;nosti CCS s.r.o. za poskytnutí vzorových dat a
+vzorového REST API s cenami PHM.</p>
+<p><i><br>
+</i></p>
+</div>
+
+</body></html>
